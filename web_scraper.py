@@ -7,6 +7,7 @@ from urllib.parse import unquote
 import chardet
 from fetch_html import *
 import asyncio
+from db_backup import *
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
@@ -86,12 +87,13 @@ def scrape_city_sell(city):
 
 
 def main():
-        cities = load_cities_from_db()
-        for city in cities:
-            if(city.avg_sell == 0):
-                avg_sell = scrape_city_sell(city)
-                city.avg_sell = avg_sell
-                save_cities_to_db(city)
+    dump_db_to_txt()
+    cities = load_cities_from_db()
+    for city in cities:
+        if(city.avg_sell == 0):
+            avg_sell = scrape_city_sell(city)
+            city.avg_sell = avg_sell
+            save_cities_to_db(city)
         
 if __name__ == "__main__":
     import sys

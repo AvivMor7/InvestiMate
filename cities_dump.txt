@@ -1,0 +1,278 @@
+DUMP DATE: 2024-06-23 02:39:06
+
+id: 1
+eng_name: Acre
+heb_name: עכו-ישראל
+avg_rent: 0
+avg_sell: 1497423
+
+id: 2
+eng_name: Afula
+heb_name: עפולה-ישראל
+avg_rent: 0
+avg_sell: 1711815
+
+id: 3
+eng_name: Ashdod
+heb_name: אשדוד-ישראל
+avg_rent: 0
+avg_sell: 2587187
+
+id: 4
+eng_name: Ashkelon
+heb_name: אשקלון-ישראל
+avg_rent: 0
+avg_sell: 2124507
+
+id: 5
+eng_name: Arad
+heb_name: ערד-ישראל
+avg_rent: 0
+avg_sell: 1585584
+
+id: 7
+eng_name: BatYam
+heb_name: בת-ים-ישראל
+avg_rent: 0
+avg_sell: 2392328
+
+id: 8
+eng_name: Beersheba
+heb_name: באר-שבע-ישראל
+avg_rent: 0
+avg_sell: 1266790
+
+id: 10
+eng_name: Dimona
+heb_name: דימונה-ישראל
+avg_rent: 0
+avg_sell: 937601
+
+id: 11
+eng_name: Eilat
+heb_name: אילת-ישראל
+avg_rent: 0
+avg_sell: 2704117
+
+id: 12
+eng_name: Gedera
+heb_name: גדרה-ישראל
+avg_rent: 0
+avg_sell: 3563000
+
+id: 13
+eng_name: Givataim
+heb_name: גבעתיים-ישראל
+avg_rent: 0
+avg_sell: 5000652
+
+id: 14
+eng_name: Haifa
+heb_name: חיפה-ישראל
+avg_rent: 0
+avg_sell: 2372682
+
+id: 15
+eng_name: HatzorHaGlilit
+heb_name: חצור-הגלילית-ישראל
+avg_rent: 0
+avg_sell: 2190000
+
+id: 16
+eng_name: Herzliya
+heb_name: הרצליה-ישראל
+avg_rent: 0
+avg_sell: 7691563
+
+id: 17
+eng_name: HodHaSharon
+heb_name: הוד-השרון-ישראל
+avg_rent: 0
+avg_sell: 5527702
+
+id: 18
+eng_name: Holon
+heb_name: חולון-ישראל
+avg_rent: 0
+avg_sell: 2928037
+
+id: 19
+eng_name: Jerusalem
+heb_name: ירושלים-ישראל
+avg_rent: 0
+avg_sell: 5166052
+
+id: 21
+eng_name: Katzrin
+heb_name: קצרין-ישראל
+avg_rent: 0
+avg_sell: 1674400
+
+id: 22
+eng_name: KfarYona
+heb_name: כפר-יונה-ישראל
+avg_rent: 0
+avg_sell: 3744127
+
+id: 23
+eng_name: KfarSaba
+heb_name: כפר-סבא-ישראל
+avg_rent: 0
+avg_sell: 4433661
+
+id: 26
+eng_name: KiryatAta
+heb_name: קרית-אתא-ישראל
+avg_rent: 0
+avg_sell: 2123950
+
+id: 27
+eng_name: KiryatBialik
+heb_name: קרית-ביאליק-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 28
+eng_name: KiryatShmona
+heb_name: קרית-שמונה-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 30
+eng_name: KritGat
+heb_name: קרית-גת-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 31
+eng_name: KiryatMotzkin
+heb_name: קרית-מוצקין-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 32
+eng_name: Nahariya
+heb_name: נהריה-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 36
+eng_name: Safed
+heb_name: צפת-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 37
+eng_name: Sderot
+heb_name: שדרות-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 39
+eng_name: Netanya
+heb_name: נתניה-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 40
+eng_name: Netivot
+heb_name: נתיבות-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 41
+eng_name: NesZiyona
+heb_name: נס-ציונה-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 42
+eng_name: NofHaGalil
+heb_name: נוף-הגליל-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 43
+eng_name: Metula
+heb_name: מטולה-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 44
+eng_name: Raanana
+heb_name: רעננה-ישראל
+avg_rent: 0
+avg_sell: 4891418
+
+id: 45
+eng_name: RamatHasharon
+heb_name: רמת-השרון-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 46
+eng_name: RamatGan
+heb_name: רמת-גן-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 49
+eng_name: Rehovot
+heb_name: רחובות-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 50
+eng_name: RishonLezion
+heb_name: ראשון-לציון-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 51
+eng_name: RoshHaayin
+heb_name: ראש-העין-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 52
+eng_name: RoshPina
+heb_name: ראש-פינה-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 53
+eng_name: TelAviv
+heb_name: תל-אביב-יפו-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 54
+eng_name: Tveriya
+heb_name: טבריה-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 57
+eng_name: Ofakim
+heb_name: אופקים-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 58
+eng_name: Yavne
+heb_name: יבנה-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 60
+eng_name: Yeruham
+heb_name: ירוחם-ישראל
+avg_rent: 0
+avg_sell: 0
+
+id: 61
+eng_name: YokneamIllit
+heb_name: יוקנעם-עילית-ישראל
+avg_rent: 0
+avg_sell: 0
+
