@@ -1,4 +1,4 @@
-DUMP DATE: 2024-06-23 02:39:06
+DUMP DATE: 2024-06-27 23:58:52
 
 id: 1
 eng_name: Acre
@@ -130,73 +130,73 @@ id: 27
 eng_name: KiryatBialik
 heb_name: קרית-ביאליק-ישראל
 avg_rent: 0
-avg_sell: 0
+avg_sell: 1873026
 
 id: 28
 eng_name: KiryatShmona
 heb_name: קרית-שמונה-ישראל
 avg_rent: 0
-avg_sell: 0
+avg_sell: 2556363
 
 id: 30
 eng_name: KritGat
 heb_name: קרית-גת-ישראל
 avg_rent: 0
-avg_sell: 0
+avg_sell: 1813035
 
 id: 31
 eng_name: KiryatMotzkin
 heb_name: קרית-מוצקין-ישראל
 avg_rent: 0
-avg_sell: 0
+avg_sell: 1830051
 
 id: 32
 eng_name: Nahariya
 heb_name: נהריה-ישראל
 avg_rent: 0
-avg_sell: 0
+avg_sell: 2360722
 
 id: 36
 eng_name: Safed
 heb_name: צפת-ישראל
 avg_rent: 0
-avg_sell: 0
+avg_sell: 3668666
 
 id: 37
 eng_name: Sderot
 heb_name: שדרות-ישראל
 avg_rent: 0
-avg_sell: 0
+avg_sell: 1899400
 
 id: 39
 eng_name: Netanya
 heb_name: נתניה-ישראל
 avg_rent: 0
-avg_sell: 0
+avg_sell: 3966153
 
 id: 40
 eng_name: Netivot
 heb_name: נתיבות-ישראל
 avg_rent: 0
-avg_sell: 0
+avg_sell: 1712483
 
 id: 41
 eng_name: NesZiyona
 heb_name: נס-ציונה-ישראל
 avg_rent: 0
-avg_sell: 0
+avg_sell: 4634059
 
 id: 42
 eng_name: NofHaGalil
 heb_name: נוף-הגליל-ישראל
 avg_rent: 0
-avg_sell: 0
+avg_sell: 2019000
 
 id: 43
 eng_name: Metula
 heb_name: מטולה-ישראל
 avg_rent: 0
-avg_sell: 0
+avg_sell: 7500000
 
 id: 44
 eng_name: Raanana
@@ -208,37 +208,37 @@ id: 45
 eng_name: RamatHasharon
 heb_name: רמת-השרון-ישראל
 avg_rent: 0
-avg_sell: 0
+avg_sell: 7486519
 
 id: 46
 eng_name: RamatGan
 heb_name: רמת-גן-ישראל
 avg_rent: 0
-avg_sell: 0
+avg_sell: 4145131
 
 id: 49
 eng_name: Rehovot
 heb_name: רחובות-ישראל
 avg_rent: 0
-avg_sell: 0
+avg_sell: 3289320
 
 id: 50
 eng_name: RishonLezion
 heb_name: ראשון-לציון-ישראל
 avg_rent: 0
-avg_sell: 0
+avg_sell: 3134264
 
 id: 51
 eng_name: RoshHaayin
 heb_name: ראש-העין-ישראל
 avg_rent: 0
-avg_sell: 0
+avg_sell: 3111899
 
 id: 52
 eng_name: RoshPina
 heb_name: ראש-פינה-ישראל
 avg_rent: 0
-avg_sell: 0
+avg_sell: 10200000
 
 id: 53
 eng_name: TelAviv

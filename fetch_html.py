@@ -6,31 +6,51 @@ PROXIES = None
 
 USER_AGENTS = [
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-    # Add more user agents if needed
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15',
+    # Add more User-Agent strings as needed
 ]
 
 async def fetch_htmls(urls):
     try:
         async with async_playwright() as p:
             browser = await p.chromium.launch(
-                headless=False,  # Run in headful mode for more human-like behavior
+                headless=False,  #change to true if you want it to run in background
                 proxy={'server': random.choice(PROXIES)} if PROXIES else None,
                 args=['--disable-blink-features=AutomationControlled','--window-size=800,600']
             )
 
             if isinstance(urls, str):
-                urls = [urls]  # Convert single URL to list for uniform processing
-
-            context = await browser.new_context(user_agent=random.choice(USER_AGENTS))
-            page = await context.new_page()
+                urls = [urls]  #convert single URL to list for uniform processing
 
             html_contents = []
-            for url in urls:
-                content = await fetch_html(page, url)
-                html_contents.append(content)
-                # Optional delay between requests to avoid detection
-                await asyncio.sleep(random.uniform(1, 3))
+            
+            if (len(urls) > 40):
+                for i, url in enumerate(urls):
+                    user_agent = random.choice(USER_AGENTS)
+                    context = await browser.new_context(user_agent=random.choice(user_agent))
+                    page = await context.new_page()
+                    content = await fetch_html(page, url)
+                    html_contents.append(content)
+                    # Print advancement in city scraping
+                    if(i>1):
+                        progress = (i + 1) / len(urls) * 100
+                        print(f"{progress:.2f}% DONE OF SCRAPING THIS CITY!")
+                    # Optional delay between requests to avoid detection, big cities somtimes fail
+                    await asyncio.sleep(random.uniform(1, 10))
 
+            else:
+                user_agent = random.choice(USER_AGENTS)
+                context = await browser.new_context(user_agent=random.choice(user_agent))
+                page = await context.new_page()
+                for i, url in enumerate(urls):
+                    content = await fetch_html(page, url)
+                    html_contents.append(content)
+                    # Print advancement in city scraping
+                    if(i>1):
+                        progress = (i + 1) / len(urls) * 100
+                        print(f"{progress:.2f}% DONE OF SCRAPING THIS CITY!")
+                    await asyncio.sleep(random.uniform(1, 2))
 
             await context.close()
             await browser.close()
@@ -55,7 +75,7 @@ async def fetch_html(page, url):
     except Exception as e:
         print(f"Failed to fetch {url}: {e}")
         return None
-
+    
 """ async def handle_captcha(page):
     try:
         # Wait for the CAPTCHA button containing "Press & Hold" to appear on the page
