@@ -1,7 +1,7 @@
 from cities import *
 from datetime import datetime
 
-def dump_db_to_txt():
+def backup_db_to_txt():
     cities = load_cities_from_db()
     try:
         with open('cities_dump.txt', 'w', encoding='utf-8') as file:

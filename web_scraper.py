@@ -119,6 +119,7 @@ def rent():
     else: print("ERROR! SITE NOT ACCESSIBLE!")         
       
 def main():
+    backup_db_to_txt()
     sell()
     
 if __name__ == "__main__":
